@@ -20,6 +20,7 @@ import {
   PageModel,
   SettingModel,
   UserModel,
+  gamesRouter,
 } from '@inithium/api-collections';
 import { createAssetManager } from '@inithium/asset-manager';
 import { createFileManagerRouter } from '@inithium/file-manager';
@@ -63,6 +64,7 @@ app.use('/api/assets',       assetsRouter);
 app.use('/api/auth',         authRouter);
 app.use('/api/settings',     settingsRouter);
 app.use('/api/file-manager', fileManagerRouter);
+app.use('/api/games', gamesRouter);
 
 app.get('/', (_req, res) => {
   res.send({ message: 'Hello API' });

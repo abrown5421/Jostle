@@ -6,4 +6,4 @@ export * from './lib/theme/theme.types.js'
 export * from './lib/user/index.js'
 export * from './lib/auth/auth.types.js';
 export * from './lib/settings/settings.types.js';
-
+export * from './lib/game/game.types.js'
