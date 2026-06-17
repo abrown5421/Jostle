@@ -12,7 +12,10 @@
         "#667eea",
         "#764ba2"
       ],
-      "y_colors": "match"
+      "y_colors": [
+        "#667eea",
+        "#764ba2"
+      ]
     },
     "user_avatar": {
       "src": "",
@@ -21,7 +24,7 @@
       "size": "md",
       "status": "offline",
       "shape": "circle",
-      "background": "linear-gradient(135deg, #0f5066, #e2e8f0)"
+      "background": "linear-gradient(135deg, #E86200, #e2e8f0)"
     },
     "bio": "",
     "gender": {

@@ -19,15 +19,15 @@ const createDefaultAvatar = (firstName: string, lastName: string): NonNullable<U
     size: 'md',
     status: 'offline',
     shape: 'circle',
-    background: 'linear-gradient(135deg, #0f5066, #e2e8f0)',
+    background: 'linear-gradient(135deg, #E86200, #e2e8f0)',
   };
 };
 
 const createDefaultBanner = (): NonNullable<User['user_banner']> => ({
   variance: 0.75,
   cell_size: 40,
-  x_colors: ['#0f5066', '#115e7a', '#1e293b'],
-  y_colors: ['#1e293b', '#64748b', '#e2e8f0'],
+  x_colors: ['#E86200', '#4004e5', '#070216'],
+  y_colors: ['#070216', '#00E8D6', '#e2e8f0'],
 });
 
 export const usersService: UsersService = {

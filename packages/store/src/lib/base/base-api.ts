@@ -54,6 +54,6 @@ const baseQueryWithReauth: BaseQueryFn<string | FetchArgs, unknown, FetchBaseQue
 export const baseApi = createApi({
   reducerPath: 'inithiumApi',
   baseQuery:   baseQueryWithReauth,
-  tagTypes:    ['User', 'Page', 'Asset', 'Auth', 'Setting', 'Game'],
+  tagTypes:    ['User', 'Page', 'Asset', 'Auth', 'Setting', 'Game', 'Session'],
   endpoints:   () => ({}),
 });
