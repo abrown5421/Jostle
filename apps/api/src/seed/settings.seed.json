@@ -8,14 +8,14 @@
   },
   {
     "key": "profile-info-address",
-    "value": true,
+    "value": false,
     "description": "",
     "is_public": false,
     "seedPolicy": "assert"
   },
   {
     "key": "profile-info-phone",
-    "value": true,
+    "value": false,
     "description": "",
     "is_public": false,
     "seedPolicy": "assert"
@@ -43,7 +43,7 @@
   },
   {
     "key": "profile-info-dark-mode",
-    "value": true,
+    "value": false,
     "description": "",
     "is_public": false,
     "seedPolicy": "assert"

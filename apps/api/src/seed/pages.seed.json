@@ -18,35 +18,10 @@
       "isButton": false,
       "resolveNavPath": null
     },
-    "centered": false,
+    "centered": true,
     "is_system_page": true,
     "isActive": true,
     "seedPolicy": "assert"
-  },
-  {
-    "key": "documentaion",
-    "path": "/documentation",
-    "componentKey": "DocumentationPage",
-    "entry": "fadeIn",
-    "exit": "fadeOut",
-    "entrySpeed": "fast",
-    "exitSpeed": "fast",
-    "bg": "surface",
-    "color": "surface-contrast",
-    "navigation": {
-      "label": "Documentation",
-      "location": "main",
-      "order": 2,
-      "authenticated": false,
-      "anonymous": false,
-      "isButton": false,
-      "resolveNavPath": null
-    },
-    "centered": false,
-    "is_system_page": false,
-    "isActive": true,
-    "isErrorPage": false,
-    "seedPolicy": "once"
   },
   {
     "key": "privacy-policy",
