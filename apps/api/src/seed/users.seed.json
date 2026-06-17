@@ -1,0 +1,42 @@
+[
+  {
+    "email": "admin@inithium.com",
+    "password": "$2b$12$f0Fu5xVsIKdGC4ttf6B8guBrlT2yY9CUdZlEx6/n0Inkkukg/dTHi",
+    "first_name": "Inithium",
+    "last_name": "Admin",
+    "role": "super-admin",
+    "user_banner": {
+      "variance": 0.75,
+      "cell_size": 60,
+      "x_colors": [
+        "#667eea",
+        "#764ba2"
+      ],
+      "y_colors": "match"
+    },
+    "user_avatar": {
+      "src": "",
+      "alt": "Inithium Admin",
+      "fallback": "IA",
+      "size": "md",
+      "status": "offline",
+      "shape": "circle",
+      "background": "linear-gradient(135deg, #0f5066, #e2e8f0)"
+    },
+    "bio": "",
+    "gender": {
+      "type": "Male"
+    },
+    "phone_number": "",
+    "dob": "",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": ""
+    },
+    "dark_mode": false,
+    "seedPolicy": "assert"
+  }
+]
